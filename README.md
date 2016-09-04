@@ -24,3 +24,5 @@ This has been implemented with the split statements on line 73 in main.py
 
 Feel free to contribute. Feel free to use.
 
+Apologies for a NOT SO NEAT code, but I'm a simulation engineer and don't care for neatness :D
+
