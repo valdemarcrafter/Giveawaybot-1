@@ -56,7 +56,7 @@ class Bot:
             try:
                 self.api.retweet(idno)
             except:
-                print "Retweeted shit again!!!!! id: ", idno
+                print "Retweeted stuff again!!!!! id: ", idno
             else:
                 print "Successfully retweeted id: ", idno
             time.sleep(10)
@@ -111,7 +111,7 @@ while(1):
     time.sleep(5*60) ########### wait for 5 mins, chill and relax
 
     if time.time() - t0 >= secsper2day:  #############  if the followed time is more than 2 days, unfollow the first 50
-        twitterbot.unfollow(twitterbot.followed_list[:,50])
+        twitterbot.unfollow(twitterbot.followed_list[:50])
         t0 = time.time()
 
     elif twitterbot.ownfollowers() > 1200:
