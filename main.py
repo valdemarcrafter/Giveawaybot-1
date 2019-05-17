@@ -6,7 +6,13 @@ class Bot:
     def __init__(self):
         self.CONSUMER_KEY='ENTER CONSUMER KEY'
         self.CONSUMER_KEY_SECRET='ENTER CONSUMER KEY SECRET'
-        self.ACCESS_TOKEN='ENTER ACCESS TOKEN'
+        self.ACCESS_TOKEN='Python 3.6
+discord.py v0.16.12
+Python modules (should be included in standard library) 
+datetime
+secrets
+random
+configparser'
         self.ACCESS_TOKEN_SECRET='ENTER ACCESS TOKEN SECRET'
         self.api = self.authenticate()
         self.user_list = []
